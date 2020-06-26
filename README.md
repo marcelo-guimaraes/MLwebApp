@@ -3,13 +3,13 @@
 Primeiro deve-se criar um novo repositorio no Github. Depois clona
 o repositorio (copia o https) e no terminal do pycharm digita o 
 seguine comando no terminal:
-```dash
+```bash
 git remote origin <url do projeto>
 ```
 origin e o nome convencional que se da a um remoto.
 
 Para trazer os arquivos do repositorio do Github para a maquina:
-```dash
+```bash
 git fetch origin
 git merge origin/master
 ```
@@ -20,11 +20,11 @@ Nesse momento ja posso começar a trabalhar com o projeto
 e quando tiver algumas alteraçoes que desejo comittar, posso
 fazer da seguinte forma:
 
-```dash
+```bash
 git add . #ou o caminho do arquivo em que houve alteraçao
 git commit
 ```
 Para upar as alteraçoes no Github basta:
-```dash
+```bash
 git push origin master
 ```
