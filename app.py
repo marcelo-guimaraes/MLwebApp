@@ -1,14 +1,15 @@
 #!/usr/bin/env python
-def say_hello_git():
-    print("Hello, git!!!")
-
-def say_hello_python():
-    print("Hello, Python!")
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplot.pyplot as plt
 
 def main():
-    print("Hello World!!!")
-    say_hello_python()
-    say_hello_git()
+    st.title("Hello World")
+    st.header("This is a Header")
+    st.subheader("This is a subheader")
+    st.text("This is a text")
+
 
 if __name__ == '__main__':
     main()
