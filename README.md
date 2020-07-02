@@ -9,7 +9,7 @@ git remote origin <url do projeto>
 origin e o nome convencional que se da a um remoto.
 
 Para trazer os arquivos do repositorio do Github para a maquina:
-```bash
+```
 git fetch origin
 git merge origin/master
 ```
