@@ -3,7 +3,7 @@
 Primeiro deve-se criar um novo repositorio no Github. Depois clona
 o repositorio (copia o https) e no terminal do pycharm digita o 
 seguine comando no terminal:
-```bash
+```
 git remote origin <url do projeto>
 ```
 origin e o nome convencional que se da a um remoto.
